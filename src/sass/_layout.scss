@@ -1,0 +1,19 @@
+body {
+	background:#fefef2;
+}
+.gallery {
+	
+}
+@media screen and (min-width:960px){
+
+body {
+	background: url(../images/background.png) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.title, .gallery {
+	display:none;
+}
+}
