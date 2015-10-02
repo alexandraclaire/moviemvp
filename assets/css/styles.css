@@ -1,20 +1,186 @@
 /* line 1, ../../src/sass/_layout.scss */
 body {
   background: #fefef2;
+  border-top: 20px solid #5dbcd2;
+  margin: 0;
+}
+
+/* line 6, ../../src/sass/_layout.scss */
+.wrapper {
+  margin: 0 auto;
+  width: 88%;
+  max-width: 960px;
+}
+
+/* line 11, ../../src/sass/_layout.scss */
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-left: -0.7em;
+  margin-top: 1em;
+}
+
+/* line 18, ../../src/sass/_layout.scss */
+.titleone {
+  color: #5dbcd2;
+  margin-top: -1em;
+  margin-bottom: -1em;
+}
+
+/* line 23, ../../src/sass/_layout.scss */
+.titletwo {
+  color: #ffcc01;
+  margin-top: -2em;
+  margin-bottom: -1em;
+}
+
+/* line 29, ../../src/sass/_layout.scss */
+.gallery img {
+  width: 88%;
+  margin: 0 auto;
+}
+
+/* line 34, ../../src/sass/_layout.scss */
+.trailer {
+  width: 88%;
+  margin: 1em 0;
+}
+/* line 37, ../../src/sass/_layout.scss */
+.trailer iframe {
+  width: 100%;
+  height: 50vh;
+  border: 3px dotted #ffcc01;
+}
+
+/* line 43, ../../src/sass/_layout.scss */
+footer {
+  background: #5dbcd2;
+  width: 100vw;
+  font-family: 'Raleway', sans-serif;
+  color: #fefef2;
+  font-size: 12px;
+  margin-top: 2em;
+  padding: 1em;
+  margin-left: -1em;
+  text-align: center;
 }
 
 @media screen and (min-width: 960px) {
-  /* line 9, ../../src/sass/_layout.scss */
+  /* line 56, ../../src/sass/_layout.scss */
   body {
     background: url(../images/background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    border: none;
   }
 
-  /* line 16, ../../src/sass/_layout.scss */
+  /* line 64, ../../src/sass/_layout.scss */
   .title, .gallery {
     display: none;
+  }
+
+  /* line 67, ../../src/sass/_layout.scss */
+  .trailer {
+    margin-top: 3em;
+    margin-left: 3em;
+  }
+  /* line 70, ../../src/sass/_layout.scss */
+  .trailer iframe {
+    height: 70vh;
+    width: 70vw;
+  }
+
+  /* line 75, ../../src/sass/_layout.scss */
+  footer {
+    position: absolute;
+    bottom: 0;
+    background: black;
+  }
+}
+@media screen and (min-width: 1300px) {
+  /* line 82, ../../src/sass/_layout.scss */
+  .trailer {
+    margin-left: 6em;
+  }
+  /* line 84, ../../src/sass/_layout.scss */
+  .trailer iframe {
+    width: 50vw;
+  }
+}
+/* line 1, ../../src/sass/_navigation.scss */
+.nav {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  width: 80%;
+  background: #5dbcd2;
+  margin-left: 1.5em;
+}
+/* line 7, ../../src/sass/_navigation.scss */
+.nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -2em;
+}
+/* line 14, ../../src/sass/_navigation.scss */
+.nav ul li {
+  background: #fefef2;
+  margin: 1em 1em 1em 1em;
+  padding: 0.5em;
+  text-align: center;
+}
+/* line 19, ../../src/sass/_navigation.scss */
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 28, ../../src/sass/_navigation.scss */
+  .nav {
+    margin: 0 2.5em;
+  }
+  /* line 30, ../../src/sass/_navigation.scss */
+  .nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  /* line 33, ../../src/sass/_navigation.scss */
+  .nav ul li {
+    width: 10%;
+    padding: 0.7em;
+    margin: 0.5em 0.5em;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* line 42, ../../src/sass/_navigation.scss */
+  .nav {
+    background: black;
+    width: 100%;
+    margin-top: -1em;
+    margin-left: 0;
+  }
+  /* line 47, ../../src/sass/_navigation.scss */
+  .nav ul {
+    padding: 0 0.5em;
+    width: 100%;
+    justify-content: space-between;
+  }
+  /* line 51, ../../src/sass/_navigation.scss */
+  .nav ul li {
+    background: black;
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 5px;
+  }
+  /* line 56, ../../src/sass/_navigation.scss */
+  .nav ul li a {
+    text-decoration: none;
+    color: #5dbcd2;
   }
 }
