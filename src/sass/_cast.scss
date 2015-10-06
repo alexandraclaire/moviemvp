@@ -1,0 +1,64 @@
+.content {
+	display:flex;
+	flex-direction:column;
+	margin:0 auto;
+	width:88%;
+	justify-content:space-between;
+	.keira, .mark, .james, .adam, .hailee {
+		margin-bottom:1em;
+		img {
+			border:solid 10px $yellow;
+		}
+	}
+}
+@media screen and (min-width:600px) {
+	.content {
+		.keira, .mark, .james, .adam, .hailee {
+			display:flex;
+			flex-direction:row;
+			.img {
+				width:40%;
+				padding-right:1em;
+			}
+			.info {
+				width:40%;
+				padding-left:4em;
+				margin-top:-1em;
+			}
+		}
+	}
+}
+@media screen and (min-width:960px) {
+.pages {	
+	.content {
+		width:100%;
+		padding-top:5em;
+		.pagetitle {
+			position:fixed;	
+			border-right:20px solid $blue;
+			padding-bottom:999em;
+			top:0;
+			width:15%;
+			padding-left:3em;
+			h2 {
+				padding-top:1.5em;
+				padding-right:1em;
+
+			}
+		}
+		.keira, .mark, .james, .adam, .hailee {
+			justify-content:flex-end;
+			padding-top:2em;
+			margin-left:15em;
+			padding-bottom:5em;
+			.info {
+				padding-left:-3em;
+				order:1;
+			}
+			.img {
+				order:2;
+			}
+		}
+	}
+}
+}

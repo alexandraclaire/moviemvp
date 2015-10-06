@@ -1,6 +1,6 @@
 body {
-	background:#fefef2;
-	border-top:20px solid #5dbcd2;
+	background:$background-color;
+	border-top:20px solid $blue;
 	margin:0;
 }
 .wrapper {
@@ -16,12 +16,12 @@ body {
 	margin-top:1em;
 }	
 .titleone {
-		color:#5dbcd2;
+		color:$blue;
 		margin-top:-1em;
 		margin-bottom:-1em;
 	}	
 .titletwo {
-		color:#ffcc01;
+		color:$yellow;
 		margin-top:-2em;
 		margin-bottom:-1em;
 	}	
@@ -41,7 +41,7 @@ body {
 }
 }
 footer {
-	background:#5dbcd2;
+	background:$blue;
 	width:100vw;
 	font-family: 'Raleway', sans-serif;
 	color:#fefef2;

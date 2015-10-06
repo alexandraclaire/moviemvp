@@ -1,0 +1,32 @@
+.pages {
+	background:$background-color;
+}
+h2 {
+	color:$blue;
+	font-size:50px;
+	font-family:"Raleway", sans-serif;
+}
+h3 {
+	font-family:"Raleway", sans-serif;	
+}
+ p {
+ 	font-family:"Raleway", sans-serif;	
+ }
+@media screen and (min-width:960px) {
+.pages {
+	.nav {
+		background:$blue;
+		position:fixed;
+		top:0;
+		ul {
+		li {
+			background:$blue;
+			padding-bottom:0;
+			a {
+				color:$background-color;
+			}
+		}
+	}
+	}	
+}
+}
