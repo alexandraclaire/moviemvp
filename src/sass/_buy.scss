@@ -1,0 +1,16 @@
+.av{
+	.item {
+		a {
+			font-family:"Raleway", sans-serif;
+			color:black;
+			font-size:20px;
+			img {
+				width:88%;
+				border:3px $yellow solid;
+			}
+			span {
+				padding:1em;
+			}
+		}
+	}
+}

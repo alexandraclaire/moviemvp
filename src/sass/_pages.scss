@@ -14,9 +14,12 @@ h3 {
  }
 @media screen and (min-width:960px) {
 .pages {
+	position:fixed;
+	width:100%;
 	.nav {
 		background:$blue;
 		position:fixed;
+		z-index:1;
 		top:0;
 		ul {
 		li {

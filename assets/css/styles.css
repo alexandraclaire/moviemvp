@@ -207,18 +207,24 @@ p {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 17, ../../src/sass/_pages.scss */
+  /* line 16, ../../src/sass/_pages.scss */
+  .pages {
+    position: fixed;
+    width: 100%;
+  }
+  /* line 19, ../../src/sass/_pages.scss */
   .pages .nav {
     background: #5dbcd2;
     position: fixed;
+    z-index: 1;
     top: 0;
   }
-  /* line 22, ../../src/sass/_pages.scss */
+  /* line 25, ../../src/sass/_pages.scss */
   .pages .nav ul li {
     background: #5dbcd2;
     padding-bottom: 0;
   }
-  /* line 25, ../../src/sass/_pages.scss */
+  /* line 28, ../../src/sass/_pages.scss */
   .pages .nav ul li a {
     color: #fefef2;
   }
@@ -259,12 +265,18 @@ p {
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 33, ../../src/sass/_cast.scss */
+  /* line 32, ../../src/sass/_cast.scss */
+  .pages {
+    position: absolute;
+    width: 100%;
+    background: #fefef2;
+  }
+  /* line 36, ../../src/sass/_cast.scss */
   .pages .content {
     width: 100%;
     padding-top: 5em;
   }
-  /* line 36, ../../src/sass/_cast.scss */
+  /* line 39, ../../src/sass/_cast.scss */
   .pages .content .pagetitle {
     position: fixed;
     border-right: 20px solid #5dbcd2;
@@ -273,25 +285,101 @@ p {
     width: 15%;
     padding-left: 3em;
   }
-  /* line 43, ../../src/sass/_cast.scss */
+  /* line 46, ../../src/sass/_cast.scss */
   .pages .content .pagetitle h2 {
     padding-top: 1.5em;
     padding-right: 1em;
   }
-  /* line 49, ../../src/sass/_cast.scss */
+  /* line 52, ../../src/sass/_cast.scss */
   .pages .content .keira, .pages .content .mark, .pages .content .james, .pages .content .adam, .pages .content .hailee {
     justify-content: flex-end;
     padding-top: 2em;
     margin-left: 15em;
     padding-bottom: 5em;
   }
-  /* line 54, ../../src/sass/_cast.scss */
+  /* line 57, ../../src/sass/_cast.scss */
   .pages .content .keira .info, .pages .content .mark .info, .pages .content .james .info, .pages .content .adam .info, .pages .content .hailee .info {
     padding-left: -3em;
     order: 1;
   }
-  /* line 58, ../../src/sass/_cast.scss */
+  /* line 61, ../../src/sass/_cast.scss */
   .pages .content .keira .img, .pages .content .mark .img, .pages .content .james .img, .pages .content .adam .img, .pages .content .hailee .img {
     order: 2;
   }
+}
+/* line 1, ../../src/sass/_music.scss */
+.content {
+  width: 88%;
+  margin: 3em;
+}
+/* line 4, ../../src/sass/_music.scss */
+.content audio {
+  width: 100%;
+}
+/* line 9, ../../src/sass/_music.scss */
+.content .pagetitle a img {
+  width: 88%;
+  height: auto;
+  margin-bottom: 1em;
+  border: 3px solid #ffcc01;
+}
+/* line 17, ../../src/sass/_music.scss */
+.content .av {
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* line 22, ../../src/sass/_music.scss */
+.content .av .item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+}
+/* line 26, ../../src/sass/_music.scss */
+.content .av .item label {
+  font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (min-width: 960px) {
+  /* line 33, ../../src/sass/_music.scss */
+  .pages {
+    position: absolute;
+    width: 100%;
+  }
+  /* line 36, ../../src/sass/_music.scss */
+  .pages .pagetitle {
+    padding-right: 1em;
+  }
+  /* line 39, ../../src/sass/_music.scss */
+  .pages .av {
+    padding-left: 25em;
+  }
+  /* line 41, ../../src/sass/_music.scss */
+  .pages .av .item {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 600px) {
+  /* line 6, ../../src/sass/_videos.scss */
+  .content .av .item iframe {
+    width: 100%;
+    height: 500px;
+    border: 3px solid #ffcc01;
+  }
+}
+/* line 3, ../../src/sass/_buy.scss */
+.av .item a {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+/* line 7, ../../src/sass/_buy.scss */
+.av .item a img {
+  width: 88%;
+  border: 3px #ffcc01 solid;
+}
+/* line 11, ../../src/sass/_buy.scss */
+.av .item a span {
+  padding: 1em;
 }
