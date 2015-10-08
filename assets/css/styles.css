@@ -390,11 +390,45 @@ p {
   }
 }
 @media screen and (min-width: 600px) {
-  /* line 6, ../../src/sass/_videos.scss */
+  /* line 5, ../../src/sass/_videos.scss */
+  .content .pagetitle .sidebar {
+    font-size: 30px;
+  }
+  /* line 11, ../../src/sass/_videos.scss */
   .content .av .item iframe {
     width: 100%;
     height: 500px;
     border: 3px solid #ffcc01;
+    margin-top: 1em;
+  }
+  /* line 17, ../../src/sass/_videos.scss */
+  .content .av .item label {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* line 28, ../../src/sass/_videos.scss */
+  .content #tellmevideo, .content #loststarsvideo, .content #authenticityvideo, .content #interviewvideo {
+    padding-top: 7em;
+    padding-left: 2em;
+  }
+  /* line 33, ../../src/sass/_videos.scss */
+  .content .pagetitle .video {
+    font-size: 20px;
+    width: 17%;
+    line-height: 50px;
+  }
+  /* line 37, ../../src/sass/_videos.scss */
+  .content .pagetitle .video li {
+    padding-bottom: 3em;
+    margin-bottom: 1em;
+    padding-right: 1em;
+  }
+}
+@media screen and (min-width: 1500px) {
+  /* line 50, ../../src/sass/_videos.scss */
+  .content .pagetitle .video {
+    width: 15%;
   }
 }
 /* line 3, ../../src/sass/_buy.scss */

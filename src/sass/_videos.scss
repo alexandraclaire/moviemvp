@@ -1,13 +1,54 @@
 @media screen and (min-width:600px){
 
 .content {
+	.pagetitle {
+		.sidebar {
+			font-size:30px;
+		}
+	}
 	.av {
 		.item {
 			iframe {
 				width:100%;
 				height:500px;
 				border:3px solid $yellow;
+				margin-top:1em;
 			}
+			label{
+				font-size:25px;
+			}
+		}
+	}
+}
+}
+
+@media screen and (min-width:960px){
+
+.content {
+	#tellmevideo, #loststarsvideo, #authenticityvideo, #interviewvideo{
+		padding-top:7em;
+		padding-left:2em;
+	}
+	.pagetitle {
+		.video {
+			font-size:20px;
+			width:17%;
+			line-height:50px;
+			li {
+				padding-bottom:3em;
+				margin-bottom:1em;
+				padding-right:1em;
+			}
+		}
+	}
+}
+}
+
+@media screen and (min-width:1500px) {
+.content {
+	.pagetitle {
+		.video {
+			width:15%;
 		}
 	}
 }
