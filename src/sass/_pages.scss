@@ -1,5 +1,9 @@
 .pages {
 	background:$background-color;
+	.sidebar {
+		position:absolute;
+		left:-999em;
+	}
 }
 h2 {
 	color:$blue;
@@ -16,6 +20,16 @@ h3 {
 .pages {
 	position:fixed;
 	width:100%;
+	.sidebar {
+		position:fixed;
+		left:0;
+		font-family:"Raleway", sans-serif;
+		color:black;	
+		list-style:none;
+		font-size:30px;
+		text-align:right;
+		line-height:70px;
+	}
 	.nav {
 		background:$blue;
 		position:fixed;
@@ -31,5 +45,21 @@ h3 {
 		}
 	}
 	}	
+}
+}
+
+@media screen and (min-width:1200px) {
+.pages {	
+	.sidebar {
+		left:25px;
+	}
+}
+}
+
+@media screen and (min-width:1500px) {
+.pages {	
+	.sidebar {
+		left:70px;
+	}
 }
 }

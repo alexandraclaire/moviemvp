@@ -4,8 +4,11 @@
 	margin:0 auto;
 	width:88%;
 	justify-content:space-between;
-	.keira, .mark, .james, .adam, .hailee {
+	#keira, #mark, #james, #adam, #hailee {
 		margin-bottom:1em;
+		p {
+			line-height:20px;
+		}
 		img {
 			border:solid 10px $yellow;
 		}
@@ -13,7 +16,7 @@
 }
 @media screen and (min-width:600px) {
 	.content {
-		.keira, .mark, .james, .adam, .hailee {
+		#keira, #mark, #james, #adam, #hailee {
 			display:flex;
 			flex-direction:row;
 			.img {
@@ -49,14 +52,16 @@
 
 			}
 		}
-		.keira, .mark, .james, .adam, .hailee {
+		#keira, #mark, #james, #adam, #hailee {
 			justify-content:flex-end;
-			padding-top:2em;
-			margin-left:15em;
+			padding-top:8em;
+			margin-left:8em;
 			padding-bottom:5em;
 			.info {
 				padding-left:-3em;
+				margin-right:3em;
 				order:1;
+				width:30%;
 			}
 			.img {
 				order:2;
