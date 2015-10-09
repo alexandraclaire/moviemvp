@@ -20,6 +20,11 @@ h3 {
 .pages {
 	position:fixed;
 	width:100%;
+	footer {
+		position:relative;
+		bottom:0;
+		background:$blue;
+	}
 	.sidebar {
 		position:fixed;
 		left:0;
@@ -42,9 +47,15 @@ h3 {
 			a {
 				color:$background-color;
 			}
-		}
+			a:hover {
+				color:$yellow;
+			}
+			.active {
+				color:$yellow;
+			}
 	}
 	}	
+}
 }
 }
 

@@ -3,7 +3,10 @@
 	font-weight:700;
 	width:80%;
 	background:#5dbcd2;
-	margin-left:1.5em;
+	margin-left:0;
+	position:absolute;
+	top:30px;
+	width:100%;
 	ul {
 		list-style:none;
 		display:flex;
@@ -19,11 +22,26 @@
 			a{
 				text-decoration:none;
 				color:black;
+			}
+			.active {
+				color:$yellow;
+			}
+			a:hover {
+				color:$yellow;
+			}
 		}
 	}
 }
+.icon {
+	background:$blue;
+	position:fixed;
+	top:0;
+	width:100vw;
+	img {	
+		width:50px;
+		height:50px;
+	}
 }
-
 @media screen and (min-width:600px) {
 .nav {
 	margin:0 2.5em;
@@ -39,6 +57,9 @@
 	}
 }
 @media screen and (min-width:960px) {
+	.icon {
+		display:none;
+	}
 	.nav {
 		background:black;
 		width:100%;
