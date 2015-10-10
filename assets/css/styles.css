@@ -68,30 +68,30 @@ footer {
   }
 
   /* line 54, ../../src/sass/_layout.scss */
-  .container {
+  .wrapper {
     background: url(../images/background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    padding: 0 100em;
   }
-
   /* line 63, ../../src/sass/_layout.scss */
-  .title, .gallery {
-    display: none;
-  }
-
-  /* line 66, ../../src/sass/_layout.scss */
-  .trailer {
+  .wrapper .trailer {
     position: fixed;
     width: 80%;
     height: 60vh;
     padding-top: 3em;
   }
 
-  /* line 74, ../../src/sass/_layout.scss */
+  /* line 72, ../../src/sass/_layout.scss */
+  .title, .gallery {
+    display: none;
+  }
+
+  /* line 75, ../../src/sass/_layout.scss */
   footer {
     position: absolute;
     bottom: -1em;
@@ -99,7 +99,7 @@ footer {
   }
 }
 @media screen and (min-width: 1300px) {
-  /* line 82, ../../src/sass/_layout.scss */
+  /* line 83, ../../src/sass/_layout.scss */
   .wrapper .trailer {
     width: 50vw;
     height: 60vh;
@@ -147,29 +147,36 @@ footer {
 }
 
 /* line 35, ../../src/sass/_navigation.scss */
-.icon {
+#icon {
   background: #5dbcd2;
   position: fixed;
   top: 0;
   width: 100vw;
 }
 /* line 40, ../../src/sass/_navigation.scss */
-.icon img {
-  width: 50px;
-  height: 50px;
+#icon span {
+  width: 30px;
+  height: 10px;
+  background: white;
+  color: white;
+}
+
+/* line 48, ../../src/sass/_navigation.scss */
+#navigation {
+  display: none;
 }
 
 @media screen and (min-width: 600px) {
-  /* line 46, ../../src/sass/_navigation.scss */
+  /* line 52, ../../src/sass/_navigation.scss */
   .nav {
-    margin: 0 2.5em;
+    margin: 1em 0 0 0;
   }
-  /* line 48, ../../src/sass/_navigation.scss */
+  /* line 54, ../../src/sass/_navigation.scss */
   .nav ul {
     flex-direction: row;
     justify-content: space-between;
   }
-  /* line 51, ../../src/sass/_navigation.scss */
+  /* line 57, ../../src/sass/_navigation.scss */
   .nav ul li {
     width: 10%;
     padding: 0.7em;
@@ -177,32 +184,37 @@ footer {
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 60, ../../src/sass/_navigation.scss */
-  .icon {
+  /* line 66, ../../src/sass/_navigation.scss */
+  #icon {
     display: none;
   }
 
-  /* line 63, ../../src/sass/_navigation.scss */
+  /* line 69, ../../src/sass/_navigation.scss */
+  #navigation {
+    display: block;
+  }
+
+  /* line 72, ../../src/sass/_navigation.scss */
   .nav {
     background: black;
     width: 100%;
-    margin-top: -1em;
+    margin-top: -3em;
     margin-left: 0;
   }
-  /* line 68, ../../src/sass/_navigation.scss */
+  /* line 77, ../../src/sass/_navigation.scss */
   .nav ul {
     padding: 0 0.5em;
     width: 100%;
     justify-content: space-between;
   }
-  /* line 72, ../../src/sass/_navigation.scss */
+  /* line 81, ../../src/sass/_navigation.scss */
   .nav ul li {
     background: black;
     font-size: 20px;
     margin-left: 1em;
     letter-spacing: 5px;
   }
-  /* line 77, ../../src/sass/_navigation.scss */
+  /* line 86, ../../src/sass/_navigation.scss */
   .nav ul li a {
     text-decoration: none;
     color: #5dbcd2;

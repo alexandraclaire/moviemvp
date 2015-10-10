@@ -1,7 +1,6 @@
 $(document).ready(function() {
-	$(".navigation").addClass("mobile");
-	$(".mobile").css('display','none');
-    $(".icon").click(function() {
-    	$(".navigation").toggle();
-    });
+      // JQUERY NAV TOGGLE
+      $('#icon').bind('click',function(event){
+          $('#navigation').slideToggle();
+      });
 });
