@@ -3,11 +3,6 @@ body {
 	border-top:60px solid $blue;
 	margin:0;
 }
-.wrapper {
-	margin:0 auto;
-	width:88%;
-	max-width:960px;
-}
 .title {
 	font-family: 'Oswald', sans-serif;
 	font-size:50px;
@@ -20,22 +15,7 @@ body {
 	}	
 .titletwo {
 		color:$yellow;
-	}	
-.gallery {
-	img {
-		width:88%;
-		margin:0 auto;
-	}
-}
-.trailer {
-	width:88%;
-	margin:1em 0;
-	iframe {
-		width:100%;
-		height:50vh;
-		border:3px dotted #ffcc01;
-}
-}
+}	
 footer {
 	background:$blue;
 	width:100vw;
@@ -47,44 +27,276 @@ footer {
 	margin-left:-1em;
 	text-align:center;
 }
+//FLEXBOX GALLERY//
+.wrapper {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+		.images1 {
+		background:url(../images/beginagain1.jpg);
+		width:80vw;
+		height:20vh;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		-webkit-filter: grayscale(100%);
+  		-moz-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+  		filter: grayscale;
+  		margin:1em 0;
+	}
+	.images2 {
+		background:url(../images/beginagain2.jpg);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		-webkit-filter: grayscale(100%);
+  		-moz-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+  		filter: grayscale;
+  		margin:1em 0;
+	}
+	.images3 {
+		background:url(../images/beginagain3.jpg);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		-webkit-filter: grayscale(100%);
+  		-moz-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+  		filter: grayscale;
+  		margin:1em 0;
+	}
+	.images4 {
+		background:url(../images/beginagain4.jpg);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		-webkit-filter: grayscale(100%);
+  		-moz-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+  		filter: grayscale;
+  		margin:1em 0;
+ 
+	}
+	.images5 {
+		background:url(../images/beginagain5.jpg);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		-webkit-filter: grayscale(100%);
+  		-moz-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+  		filter: grayscale;
+  		margin:1em 0;
+	}
+	.images6 {
+		background:url(../images/beginagain6.jpeg);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		-webkit-filter: grayscale(100%);
+  		-moz-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+  		filter: grayscale;
+  		margin:1em 0;
+	}
+	.images7 {
+		background:url(../images/beginagain7.jpg);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		-webkit-filter: grayscale(100%);
+  		-moz-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+  		filter: grayscale;
+  		margin:1em 0;
+	}
+	.images8 {
+		background:url(../images/beginagain8.jpg);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		-webkit-filter: grayscale(100%);
+  		-moz-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+  		filter: grayscale;
+  		margin:1em 0;
+	}
+	.images9 {
+		background:url(../images/beginagain9.jpg);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		-webkit-filter: grayscale(100%);
+  		-moz-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+  		filter: grayscale;
+  		margin:1em 0;
+	}
+	.images10 {
+		background:url(../images/beginagain10.png);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		-webkit-filter: grayscale(100%);
+  		-moz-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+  		filter: grayscale;
+  		margin:1em 0; 
+	}
+	.images11 {
+		background:url(../images/beginagain11.JPG);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		-webkit-filter: grayscale(100%);
+  		-moz-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+  		filter: grayscale;
+  		margin:1em 0;
+	}
+	.images12 {
+		background:url(../images/beginagain12.jpeg);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		-webkit-filter: grayscale(100%);
+  		-moz-filter: grayscale(100%);
+  		-o-filter: grayscale(100%);
+  		filter: grayscale;
+  		margin:1em 0;
+	}
+	.images1:hover, .images2:hover, .images3:hover,  .images4:hover, .images5:hover, .images6:hover, .images7:hover, .images8:hover, .images9:hover, .images10:hover, .images11:hover, .images12:hover {
+		-webkit-filter: grayscale(0);
+  		-moz-filter: grayscale(0);
+  		-o-filter: grayscale(0);
+  		filter: grayscale;
+	}
+	.middle {
+		order:1;
+		display:flex;
+		flex-direction:column;
+		.trailer {
+			order:1;
+			iframe {
+				width:100%;
+				border:3px dotted #ffcc01;
+			} 
+		}
+		.middle2  {
+			order:2;
+		}
+		.middle3 {
+			order:3;
+		}
+	}
+	.top, .bottom {
+		order:2;
+	}
+}
+@media screen and (min-width:600px){
+	.trailer {
+		iframe{
+			height:50vh;
+		}
+	}
+	.wrapper {
+		.images1, .images2, .images3,  .images4, .images5, .images6, .images7, .images8, .images9, .images10, .images11, .images12 {
+			height:50vh;
+		}
+	}
+}
+
 @media screen and (min-width:960px){
 body {
 	border:none;
 }
 .wrapper{
-	background: url(../images/background.png) no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	width:100vw;
-  	height:100vh;
-  	padding:0 100em;
-  	.trailer {
-	position:fixed;
-	width:80%;
-	height:60vh;
-	padding-top:3em;
-	iframe {
+	width:100vw;
+	.top {
+		display:flex;
+		flex-direction:row;
+		order:1;
+		.images1, .images2, .images3, .images4 {
+			width:25vw;
+			height:25vh;
+			margin:0;
+		}
+	}
+	.middle {
+		display:flex;
+		flex-direction:row;
+		width:100vw;
+		order:2;
+		.middle2, .middle3 {
+			.images5, .images6, .images7, .images8 {
+				width:25vw;
+				height:25vh;
+				margin:0;
+			}
+			}
+		.trailer {
+			width:50vw;
+			margin:0;
+			height:25vh;
+			order:2;
+			iframe{
+				border:none;
+			}
+		}	
+		}
+	.bottom {
+		display:flex;
+		flex-direction:row;
+		order:3;
+		.images9, .images10, .images11, .images12 {
+			width:25vw;
+			height:25vh;
+			margin:0;
+		}
 	}
 }
-}
-.title, .gallery {
+.title {
 	display:none;
 }
 footer {
 	position:absolute;
 	bottom:-1em;
 	background:black;
-}
-}
-@media screen and (min-width:1300px){
-.wrapper {	
-	.trailer {
-		width:50vw;
-		height:60vh;
-		iframe {
-		}
-	}
 }
 }

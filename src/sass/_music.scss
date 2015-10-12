@@ -3,6 +3,7 @@
 	margin:3em;
 		audio {
 			width:100%;
+			padding-bottom:2em;
 		}
 	.pagetitle {
 		a {
@@ -40,6 +41,15 @@
 			padding-left:25em;
 			.item {
 				width:60%;
+			}
+		}
+	}
+}
+@media screen and (min-width:1800px) {
+	.av {
+		.item {
+			label {
+				padding-left:4em;
 			}
 		}
 	}
