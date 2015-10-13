@@ -29,6 +29,10 @@ footer {
 }
 //FLEXBOX GALLERY//
 .wrapper {
+	-webkit-display:flex;
+	-moz-display:flex;
+	-ms-display:flex;
+	-o-display:flex; 
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:center;
@@ -209,6 +213,10 @@ footer {
 	}
 	.middle {
 		order:1;
+		-webkit-display:flex;
+		-moz-display:flex;
+		-ms-display:flex;
+		-o-display:flex; 
 		display:flex;
 		flex-direction:column;
 		.trailer {
@@ -249,6 +257,10 @@ body {
 .wrapper{
 	width:100vw;
 	.top {
+		-webkit-display:flex;
+		-moz-display:flex;
+		-ms-display:flex;
+		-o-display:flex; 
 		display:flex;
 		flex-direction:row;
 		order:1;
@@ -259,6 +271,10 @@ body {
 		}
 	}
 	.middle {
+		-webkit-display:flex;
+		-moz-display:flex;
+		-ms-display:flex;
+		-o-display:flex; 
 		display:flex;
 		flex-direction:row;
 		width:100vw;
@@ -281,6 +297,10 @@ body {
 		}	
 		}
 	.bottom {
+		-webkit-display:flex;
+		-moz-display:flex;
+		-ms-display:flex;
+		-o-display:flex; 
 		display:flex;
 		flex-direction:row;
 		order:3;

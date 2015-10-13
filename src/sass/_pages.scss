@@ -32,6 +32,12 @@ h3 {
 		color:black;	
 		list-style:none;
 		font-size:30px;
+		li {
+			padding:1em 0;
+			a {
+				color:black;
+			}
+		}
 	}
 	.nav {
 		background:$blue;

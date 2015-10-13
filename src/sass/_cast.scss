@@ -1,4 +1,8 @@
 .content {
+	-webkit-display:flex;
+	-moz-display:flex;
+	-ms-display:flex;
+	-o-display:flex; 
 	display:flex;
 	flex-direction:column;
 	margin:0 auto;
@@ -17,6 +21,10 @@
 @media screen and (min-width:600px) {
 	.content {
 		#keira, #mark, #james, #adam, #hailee {
+			-webkit-display:flex;
+			-moz-display:flex;
+			-ms-display:flex;
+			-o-display:flex; 
 			display:flex;
 			flex-direction:row;
 			.img {

@@ -1,4 +1,4 @@
-.content {
+#links {
 	ul { 
 		list-style:none;
 		font-family:'Raleway', sans-serif;
@@ -21,9 +21,17 @@
 @media screen and (min-width:600px) {
 	.content {
 		#links {
+			-webkit-display:flex;
+			-moz-display:flex;
+			-ms-display:flex;
+			-o-display:flex; 
 			display:flex;
 			flex-direction:column;
 		.buy, .buy2 {
+			-webkit-display:flex;
+			-moz-display:flex;
+			-ms-display:flex;
+			-o-display:flex; 
 			display:flex;
 			flex-direction:row;
 			justify-content:space-around;

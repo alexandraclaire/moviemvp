@@ -10,6 +10,10 @@
 	z-index:2;
 	ul {
 		list-style:none;
+		-webkit-display:flex;
+		-moz-display:flex;
+		-ms-display:flex;
+		-o-display:flex; 
 		display:flex;
 		flex-direction:column;
 		flex-wrap:wrap;
